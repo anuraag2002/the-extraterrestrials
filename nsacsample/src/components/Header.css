@@ -19,7 +19,7 @@ a:hover{
     font-family: 'Teko-Regular', sans-serif;
     text-transform: uppercase;
     color: #fff;
-    font-size: 1em;
+    font-size: 0.97em!important;
     letter-spacing: .05em;
     white-space: nowrap;
     text-decoration: none;
