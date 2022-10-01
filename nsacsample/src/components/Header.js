@@ -1,21 +1,22 @@
 import { Routes,Route,NavLink, useNavigate } from "react-router-dom";
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
+import FixedNavbar from 'axl-react-fixed-nav';
 import React from "react";
 import Logo from "../components/images/logo.png";
 import './Header.css';
 function Header(){
     return (
         <div>
-            <Navbar bg="dark" expand="lg" variant="dark">
+            <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
                 <Container>
                 <Navbar.Brand href=""><img src={Logo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 
                     <Nav className="ms-auto">
-                    <NavLink className="nav-link" to="">{('Home')}</NavLink>
-                    <NavLink className="nav-link" to="mission">{('mission')}</NavLink>
-                    <NavLink className="nav-link" to="gallery">{('gallery')}</NavLink>
+                    <a className="nav-link" href="#home">{('Home')}</a>
+                    <a className="nav-link" href="#mission">{('mission')}</a>
+                    <a className="nav-link" href="#gallery">{('gallery')}</a>
                     
                     </Nav>
                 </Navbar.Collapse>

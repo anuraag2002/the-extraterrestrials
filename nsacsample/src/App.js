@@ -21,8 +21,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='/mission' element={<Mission/>}></Route>
-        <Route path='/gallery' element={<Gallery/>}></Route>
+        {/* <Route path='/mission' element={<Mission/>}></Route>
+        <Route path='/gallery' element={<Gallery/>}></Route> */}
       </Routes>
     </div>
   );
