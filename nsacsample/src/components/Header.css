@@ -2,3 +2,25 @@ img{
     max-height:5em;
     max-width:5em;
 }
+a{
+    font-size: 1.5em!important;
+}
+a:hover{
+    color: rgb(123, 255, 255)!important;
+    
+    
+}
+
+
+/* .nav-title {
+    font-size: 1.4em;
+} */
+.nav-title {
+    font-family: 'Teko-Regular', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: .05em;
+    white-space: nowrap;
+    text-decoration: none;
+}

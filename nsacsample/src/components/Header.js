@@ -7,16 +7,17 @@ import './Header.css';
 function Header(){
     return (
         <div>
-            <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
+            <Navbar bg="secondary" expand="lg" variant="dark" fixed="top">
                 <Container>
-                <Navbar.Brand href=""><img src={Logo} /></Navbar.Brand>
+                <Navbar.Brand href=""><a href="http://parkersolarprobe.jhuapl.edu/" class="nav-title">Parker Solar Probe</a></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 
                     <Nav className="ms-auto">
-                    <a className="nav-link" href="#home">{('Home')}</a>
-                    <a className="nav-link" href="#mission">{('mission')}</a>
-                    <a className="nav-link" href="#gallery">{('gallery')}</a>
+                    <a className="nav-link me-2" href="#home">{('Home')}</a>
+                    <a className="nav-link me-2" href="#mission">{('mission')}</a>
+                    <a className="nav-link " href="#gallery">{('gallery')}</a>
+                    
                     
                     </Nav>
                 </Navbar.Collapse>
