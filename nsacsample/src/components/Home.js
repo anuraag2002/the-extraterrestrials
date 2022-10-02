@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css"
 import pic1 from "../components/images/venus.jpg";
+import milkyway from "../components/images/milkyway.jpeg";
 import bgimg from "../components/images/backimg.png"
 function Home() {
     return (
@@ -24,11 +25,6 @@ On April 28, 2021, during its eighth flyby of the Sun, Parker Solar Probe encoun
             </div>
             <div id="mission" className="pt-5">
             <div className="container pt-5">
-<<<<<<< Updated upstream
-            <h1>The Mission</h1>
-            <p className="lead mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam eveniet, perspiciatis veritatis obcaecati perferendis quos alias illum molestiae magnam libero sequi maiores voluptate minus dolor ea, repellendus porro. Laboriosam consectetur dolore facilis sit, nostrum mollitia quod culpa ab unde deserunt molestiae? Voluptas pariatur tempore blanditiis perspiciatis debitis odit officiis quis corrupti sequi. Exercitationem, repudiandae aliquid asperiores, eum eveniet quidem maiores veniam similique provident quisquam assumenda fuga necessitatibus est vel inventore atque soluta. Odio, nobis perspiciatis explicabo accusamus eaque earum corrupti similique autem aut optio ratione neque, repudiandae veniam. Excepturi quam, non unde reiciendis perferendis tempore temporibus mollitia doloribus, beatae veniam consequatur et, minus doloremque dolore vero nisi voluptatibus voluptatum? Officiis sit aperiam nulla recusandae hic illum distinctio aliquid necessitatibus nobis molestiae. Quisquam, libero modi dolorum ad repellat accusantium earum vitae totam ea, reiciendis nam explicabo eligendi maxime quis odit. Nam at repudiandae laudantium deleniti optio! Velit, quaerat. Consectetur at non dolore beatae modi laudantium, neque, tempore quisquam quaerat quibusdam repudiandae nemo, ullam voluptatem sapiente pariatur consequuntur officia reiciendis. Nobis impedit incidunt est? Est impedit doloremque molestiae error, iste reiciendis ab nostrum consequuntur, eaque laudantium corporis quae, recusandae aliquid consequatur dolor a fugiat voluptas. Eos odio quia neque iste repudiandae facere?</p>
-            <p className="lead mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam eveniet, perspiciatis veritatis obcaecati perferendis quos alias illum molestiae magnam libero sequi maiores voluptate minus dolor ea, repellendus porro. Laboriosam consectetur dolore facilis sit, nostrum mollitia quod culpa ab unde deserunt molestiae? Voluptas pariatur tempore blanditiis perspiciatis debitis odit officiis quis corrupti sequi. Exercitationem, repudiandae aliquid asperiores, eum eveniet quidem maiores veniam similique provident quisquam assumenda fuga necessitatibus est vel inventore atque soluta. Odio, nobis perspiciatis explicabo accusamus eaque earum corrupti similique autem aut optio ratione neque, repudiandae veniam. Excepturi quam, non unde reiciendis perferendis tempore temporibus mollitia doloribus, beatae veniam consequatur et, minus doloremque dolore vero nisi voluptatibus voluptatum? Officiis sit aperiam nulla recusandae hic illum distinctio aliquid necessitatibus nobis molestiae. Quisquam, libero modi dolorum ad repellat accusantium earum vitae totam ea, reiciendis nam explicabo eligendi maxime quis odit. Nam at repudiandae laudantium deleniti optio! Velit, quaerat. Consectetur at non dolore beatae modi laudantium, neque, tempore quisquam quaerat quibusdam repudiandae nemo, ullam voluptatem sapiente pariatur consequuntur officia reiciendis. Nobis impedit incidunt est? Est impedit doloremque molestiae error, iste reiciendis ab nostrum consequuntur, eaque laudantium corporis quae, recusandae aliquid consequatur dolor a fugiat voluptas. Eos odio quia neque iste repudiandae facere?</p>
-=======
             <h1>MISSION</h1>
             <p className="lead mt-5">For the first time in history, a spacecraft has touched the Sun. NASA’s Parker Solar Probe has now flown through the Sun’s upper atmosphere – the corona – and sampled particles and magnetic fields there. 
 The new milestone marks one major step for Parker Solar Probe and one giant leap for solar science. Just as landing on the Moon allowed scientists to understand how it was formed, touching the very stuff the Sun is made of will help scientists uncover critical information about our closest star and its influence on the solar system. 
@@ -46,7 +42,7 @@ On April 28, 2021, during its eighth flyby of the Sun, Parker Solar Probe encoun
 In order to unlock the mysteries of the corona, but also to protect a society that is increasingly dependent on technology from the threats of space weather, we will send Parker Solar Probe to touch the Sun.
 
 In 2017, the mission was renamed for Eugene Parker, the S. Chandrasekhar Distinguished Service Professor Emeritus, Department of Astronomy and Astrophysics at the University of Chicago. In the 1950s, Parker proposed a number of concepts about how stars—including our Sun—give off energy. He called this cascade of energy the solar wind, and he described an entire complex system of plasmas, magnetic fields, and energetic particles that make up this phenomenon. Parker also theorized an explanation for the superheated solar atmosphere, the corona, which is – contrary to what was expected by physics laws -- hotter than the surface of the Sun itself. This is the first NASA mission that has been named for a living individual.</p>
->>>>>>> Stashed changes
+
             </div>
             </div>
             <div id = "gallery">
@@ -67,15 +63,18 @@ In 2017, the mission was renamed for Eugene Parker, the S. Chandrasekhar Disting
                         <div className="col-12 col-md-6"  bg = "secondary">
                         <div className = "gallery-section-card shadow text-center bg-secondary">
             <img
-            src={pic1}
+            src={milkyway}
             className = "gallery-section-image"
           />
       <p className = "gallery-section-card-text">
-      NASA’s Parker Solar Probe captured stunning views of Venus during its close flyby of the planet in July 2020.
+      NThe image shows the first-light data from Parker Solar Probe's WISPR instrument suite. It shows Milky Way, looking at the galactic center.
       </p>
     </div>
                         </div>
                     </div>
+
+
+
                 </div>
             
     
