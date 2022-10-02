@@ -1,0 +1,15 @@
+.model-heading{
+    color: rgb(250, 248, 245);
+    font-weight: 900;
+    font-size: 2rem !important;
+}
+.container-model{
+    background: url("../components/images/backimg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding : 100px;
+    padding-right: 25vw;
+    padding-top: 500px;
+   /* opacity: 0.5;*/
+  }
