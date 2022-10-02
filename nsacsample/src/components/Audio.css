@@ -1,0 +1,18 @@
+.container-fluid-audio{
+    background: url("../components/images/backimg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding : 100px;
+    padding-right: 25vw;
+  }
+  .audio-h1{
+    color: rgb(186, 125, 27);
+    font-weight: 900;
+    font-size: 3rem !important;
+  }
+  .p-audio{
+    color: rgb(245, 242, 237);
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
