@@ -31,3 +31,6 @@ a:hover{
     white-space: nowrap;
     text-decoration: none;
 }
+#droplink{
+    font-size: medium !important;
+}

@@ -5,6 +5,9 @@ import Mission from './components/Mission';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
 import React from 'react';
+import Audio from './components/Audio';
+import Model from './components/3dmodel';
+import Facts from './components/Facts';
 // import Users from './components/Users';
 // import Contactus from './components/Contactus';
 // import Technologies from './components/Technologies';
@@ -25,6 +28,7 @@ function App() {
         <Route path='/gallery' element={<Gallery/>}></Route> */}
         <Route path="/audio" element={<Audio/>}></Route>
         <Route path="/model" element={<Model/>}></Route>
+        <Route path="/facts" element={<Facts/>}></Route>
       </Routes>
     </div>
   );

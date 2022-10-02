@@ -1,4 +1,4 @@
-import { Routes,Route,NavLink, useNavigate } from "react-router-dom";
+import { Link,Routes,Route,NavLink, useNavigate } from "react-router-dom";
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap';
 import FixedNavbar from 'axl-react-fixed-nav';
 import React from "react";
@@ -19,11 +19,9 @@ function Header(){
                     <a className="nav-link text-white" href="#gallery">{('gallery')}</a>
                     <a className="nav-link text-white" href="#timeline">{('timeline')}</a>
                     <NavDropdown className="nav-dropdown" title={<span className="text-white">Take a look</span>} id="collasible-nav-dropdown">
-              <NavDropdown.Item  className = "bg-secondary text-white" href="#action/3.1">Images</NavDropdown.Item>
-              <NavDropdown.Item className = "bg-secondary text-white" href="#action/3.2">
-                Videos
-              </NavDropdown.Item>
-              <NavDropdown.Item className = "bg-secondary text-white" href="#action/3.3">Audio</NavDropdown.Item>
+              <NavDropdown.Item  className = "bg-secondary text-white" ><Link className="nav-link active" to='model' id="droplink">3D Model</Link></NavDropdown.Item>
+              <NavDropdown.Item className = "bg-secondary text-white" ><Link className="nav-link active" to='facts' id="droplink">Did you know?</Link></NavDropdown.Item>
+              <NavDropdown.Item className = "bg-secondary text-white" ><Link className="nav-link active" to='audio' id="droplink">Audio</Link></NavDropdown.Item>
             </NavDropdown>
         
                     </Nav>
