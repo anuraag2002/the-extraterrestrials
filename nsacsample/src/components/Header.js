@@ -7,13 +7,17 @@ import './Header.css';
 function Header(){
     return (
         <div>
-            <Navbar bg="secondary" expand="lg" variant="dark" fixed="top">
+            <Navbar bg = "secondary" expand="lg" variant="dark" fixed="top">
                 <Container>
                 <Navbar.Brand href=""><a href="http://parkersolarprobe.jhuapl.edu/" class="nav-title">Parker Solar Probe</a></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 
                     <Nav className="ms-auto">
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
                     <a className="nav-link text-white me-2" href="#home">{('Home')}</a>
                     <a className="nav-link text-white me-2" href="#mission">{('mission')}</a>
                     <a className="nav-link text-white" href="#gallery">{('gallery')}</a>

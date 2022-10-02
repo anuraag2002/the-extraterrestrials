@@ -24,7 +24,7 @@ function Home() {
                 <div className="container">
                     <h1>GALLERY</h1>
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-12 col-md-6" bg = "secondary">
                         <div className = "gallery-section-card shadow text-center">
             <img
             src={pic1}
@@ -35,7 +35,7 @@ function Home() {
       </p>
     </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-12 col-md-6"  bg = "secondary">
                         <div className = "gallery-section-card shadow text-center">
             <img
             src={pic1}
