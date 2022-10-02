@@ -9,7 +9,7 @@ function Header(){
         <div>
             <Navbar bg = "secondary" expand="lg" variant="dark" fixed="top">
                 <Container>
-                <Navbar.Brand href=""><a href="http://parkersolarprobe.jhuapl.edu/" class="nav-title">Parker Solar Probe</a></Navbar.Brand>
+                <Navbar.Brand href=""><a href="#" class="nav-title">Parker Solar Probe</a></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 

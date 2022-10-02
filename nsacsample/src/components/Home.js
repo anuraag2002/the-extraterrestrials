@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css"
 import pic1 from "../components/images/venus.jpg";
 import milkyway from "../components/images/milkyway.jpeg";
+import psp from "../components/images/psp.jpeg"
 import bgimg from "../components/images/backimg.png"
 function Home() {
     return (
@@ -49,7 +50,7 @@ In 2017, the mission was renamed for Eugene Parker, the S. Chandrasekhar Disting
                 <div className="container">
                     <h1>GALLERY</h1>
                     <div className="row">
-                        <div className="col-12 col-md-6" >
+                        <div className="col-12 col-md-4" >
                         <div className = "gallery-section-card shadow text-center bg-secondary">
             <img
             src={pic1}
@@ -60,7 +61,7 @@ In 2017, the mission was renamed for Eugene Parker, the S. Chandrasekhar Disting
       </p>
     </div>
                         </div>
-                        <div className="col-12 col-md-6"  bg = "secondary">
+                        <div className="col-12 col-md-4"  bg = "secondary">
                         <div className = "gallery-section-card shadow text-center bg-secondary">
             <img
             src={milkyway}
@@ -68,6 +69,18 @@ In 2017, the mission was renamed for Eugene Parker, the S. Chandrasekhar Disting
           />
       <p className = "gallery-section-card-text">
       NThe image shows the first-light data from Parker Solar Probe's WISPR instrument suite. It shows Milky Way, looking at the galactic center.
+      </p>
+    </div>
+                        </div>
+
+                        <div className="col-12 col-md-4" >
+                        <div className = "gallery-section-card shadow text-center bg-secondary">
+            <img
+            src={psp}
+            className = "gallery-section-image"
+          />
+      <p className = "gallery-section-card-text">
+      An image showing the parker solar probe spacecraft.
       </p>
     </div>
                         </div>
