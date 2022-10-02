@@ -14,3 +14,8 @@
     font-weight: 600;
     font-size: 16px;
   } 
+  .container-fluid{
+    background: url("../components/images/backimg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }

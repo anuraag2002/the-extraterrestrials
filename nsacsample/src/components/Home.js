@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css"
 import pic1 from "../components/images/venus.jpg";
+import bgimg from "../components/images/backimg.png"
 function Home() {
     return (
         <div className="container-fluid text-center bg-dark text-light">
