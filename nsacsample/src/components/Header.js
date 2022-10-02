@@ -14,10 +14,6 @@ function Header(){
                 <Navbar.Collapse id="basic-navbar-nav">
                 
                     <Nav className="ms-auto">
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
                     <a className="nav-link text-white me-2" href="#home">{('Home')}</a>
                     <a className="nav-link text-white me-2" href="#mission">{('mission')}</a>
                     <a className="nav-link text-white" href="#gallery">{('gallery')}</a>
