@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css"
 import pic1 from "../components/images/venus.jpg";
 import milkyway from "../components/images/milkyway.jpeg"
+import psp from "../components/images/psp.jpeg"
 import bgimg from "../components/images/backimg.png"
 function Home() {
     return (
@@ -55,15 +56,16 @@ function Home() {
                         <div className="col-12 col-md-4"  bg = "secondary">
                         <div className = "gallery-section-card shadow text-center bg-secondary">
             <img
-            src={pic1}
+            src={psp}
             className = "gallery-section-image"
           />
       <p className = "gallery-section-card-text">
-      NASA’s Parker Solar Probe captured stunning views of Venus during its close flyby of the planet in July 2020.
+      An image showing the Parker Solar Probe spacecraft.
       </p>
     </div>
                         </div>
                     </div>
+
                 </div>
             
     
