@@ -9,15 +9,19 @@ a{
     background-color: #175165;
 }
 a:hover{
-    color: rgb(187, 240, 240)!important;
-    
-    
+    color: rgb(187, 240, 240)!important;    
 }
 
 
 /* .nav-title {
     font-size: 1.4em;
 } */
+.nav-dropdown{ 
+    margin-top:0;
+    margin-bottom: 0;
+    border-width: 0;
+    color : white !important;
+}
 .nav-title {
     font-family: 'Teko-Regular', sans-serif;
     text-transform: uppercase;
