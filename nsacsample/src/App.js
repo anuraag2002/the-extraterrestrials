@@ -23,6 +23,8 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
         {/* <Route path='/mission' element={<Mission/>}></Route>
         <Route path='/gallery' element={<Gallery/>}></Route> */}
+        <Route path="/audio" element={<Audio/>}></Route>
+        <Route path="/model" element={<Model/>}></Route>
       </Routes>
     </div>
   );
