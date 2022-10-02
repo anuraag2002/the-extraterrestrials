@@ -15,7 +15,7 @@ function Header(){
                 
                     <Nav className="ms-auto">
                     <a className="nav-link text-white me-2" href="#home">{('Home')}</a>
-                    <a className="nav-link text-white me-2" href="#mission">{('mission')}</a>
+                    <a className="nav-link text-white me-2" href="#mission">{('The Mission')}</a>
                     <a className="nav-link text-white" href="#gallery">{('gallery')}</a>
                     <a className="nav-link text-white" href="#timeline">{('timeline')}</a>
                     <NavDropdown className="nav-dropdown" title={<span className="text-white">Take a look</span>} id="collasible-nav-dropdown">
