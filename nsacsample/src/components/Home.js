@@ -26,7 +26,7 @@ On April 28, 2021, during its eighth flyby of the Sun, Parker Solar Probe encoun
             </div>
             <div id="mission" className="pt-5">
             <div className="container pt-5">
-            <h1>MISSION</h1>
+            <h1>THE MISSION</h1>
             <p className="lead mt-5">For the first time in history, a spacecraft has touched the Sun. NASA’s Parker Solar Probe has now flown through the Sun’s upper atmosphere – the corona – and sampled particles and magnetic fields there. 
 The new milestone marks one major step for Parker Solar Probe and one giant leap for solar science. Just as landing on the Moon allowed scientists to understand how it was formed, touching the very stuff the Sun is made of will help scientists uncover critical information about our closest star and its influence on the solar system. 
 As it circles closer to the solar surface, Parker is making new discoveries that other spacecraft were too far away to see, including from within the solar wind – the flow of particles from the Sun that can influence us at Earth. In 2019, Parker discovered that magnetic zig-zag structures in the solar wind, called switchbacks, are plentiful close to the Sun. But how and where they form remained a mystery. Halving the distance to the Sun since then, Parker Solar Probe has now passed close enough to identify one place where they originate: the solar surface.
